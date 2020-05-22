@@ -1,5 +1,6 @@
 from random import randrange
 
+
 f = open("bible.txt", "r")
 
 # 61 books of the bible
