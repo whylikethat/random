@@ -9,6 +9,6 @@ python:
   - "3.8-dev"  # 3.8 development branch
   - "nightly"  # nightly build
 # command to install dependencies
-install: make
+install: make text
 # command to run tests
-script: make
+script: make text
