@@ -13,4 +13,5 @@ blocks:
             - checkout
         - name: 'Job #2'
           commands:
+            - cd /home/unknown/Documents/random/
             - make
