@@ -1,9 +1,10 @@
 language: python
 python:
   - "2.7"
+
+install: skip
 # command to run tests
-script: 
-  python verses.py > verse.txt && make text
+script: make text
 
 after_script: make clean
 
