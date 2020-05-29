@@ -7,3 +7,4 @@ make clean
 # command to run tests
 script: make text
 make clean
+
