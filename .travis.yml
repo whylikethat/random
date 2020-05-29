@@ -3,8 +3,7 @@ python:
   - "2.7"
 # command to run tests
 script: 
-  python verses.py > verse.txt
-  make text
+  python verses.py > verse.txt && make text
 
 after_script: make clean
 
