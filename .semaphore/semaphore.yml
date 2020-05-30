@@ -1,8 +1,0 @@
-blocks:
-  task:
-    jobs:
-      name: whatever
-        commands: make text
-          on_pass:
-            commands:
-              make clean
