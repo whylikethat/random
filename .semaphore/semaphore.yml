@@ -1,8 +1,4 @@
-version: v1.0
-name: random
-
 blocks:
-  name: make text
   task:
     jobs:
       name: whatever
