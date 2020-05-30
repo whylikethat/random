@@ -12,7 +12,7 @@ currentbook = open("tempo.txt", "a")
 
 for line in f:
     if randombook in line:
-        print("From " + randombook + " " + '\n')
+        print("From " + randombook + ": " + '\n')
         while books[book+1] not in line:
             currentbook.write(line)
             line = next(f)
