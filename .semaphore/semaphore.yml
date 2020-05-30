@@ -1,0 +1,12 @@
+version: v1.0
+name: random
+
+blocks:
+  name: make text
+  task:
+    jobs:
+      name: whatever
+        commands: make text
+          on_pass:
+            commands:
+              make clean
