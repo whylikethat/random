@@ -1,6 +1,5 @@
 from random import randrange
 
-
 f = open("bible.txt", "r")
 
 # 61 books of the bible
@@ -31,6 +30,7 @@ for i, line in enumerate(verse):
         while "." not in line:
             line = next(verse)
             print(line)
+
 
 
 verse.close()

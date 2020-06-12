@@ -4,3 +4,5 @@ curl -X POST https://textbelt.com/text \
    --data-urlencode phone='4383454848' \
    --data-urlencode message="$(cat new.txt)" \
    -d key=textbelt
+
+python notification.py
