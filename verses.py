@@ -25,11 +25,18 @@ verse = open("tempo.txt", "r")
 endresult = ""
 for i, line in enumerate(verse):
     if i == randomline:
+        while line[0].isdigit() == False:
+            line = next(verse)
+
         endresult += line
         line = next(verse)
         while line[0].isdigit() == False:
             endresult += line
-            line = next(verse)
+            print(i)
+            if i != count: # modify this part because it keeps getting more lines than the chapter
+                line = next(verse)
+            else:
+                break
 
 
 
