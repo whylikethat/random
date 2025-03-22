@@ -28,6 +28,6 @@ git clone https://github.com/whylikethat/random.git
 ```
    This process only runs the program once, if you want to run it on a schedule, you will need to integrate it with [CI ](https://www.google.com/search?q=continous+integration+platforms&oq=continous+integration+platforms&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMgoIBRAAGAgYDRgeMg0IBhAAGIYDGIAEGIoFMg0IBxAAGIYDGIAEGIoFMgYICBAuGEAyBggJEEUYOdIBCDQ5NDNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8)
 
-* Note: The free SMS service allows up to 78 characters, that's why there is an e-mail option in case the verse exceeds that length
+* Note: The free SMS service allows up to 78 characters, that's why there is an e-mail option in case the verse exceeds that length. You can use the SMS service of your choice and integrate it into the script.sh
 
 Make sure that you don't create any shortcuts and you run the script directly in it's original folder.
