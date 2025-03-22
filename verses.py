@@ -32,11 +32,7 @@ for i, line in enumerate(verse):
         line = next(verse)
         while line[0].isdigit() == False:
             endresult += line
-            print(i)
-            if i != count: # modify this part because it keeps getting more lines than the chapter
-                line = next(verse)
-            else:
-                break
+            line = next(verse)
 
 
 
