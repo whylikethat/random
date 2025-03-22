@@ -7,6 +7,11 @@ Or you can schedule a task that simply runs the script.sh file. (The SMS service
 Python:  You can download it from the Microsoft Store or directly from Python here: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-us&gl=US on Windows or by typing python in a terminal on Linux/MAC
 
 # Running on Windows
+1. Install Python: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-us&gl=US
+2. Download the verses.py file from https://github.com/whylikethat/random/blob/master/verses.py
+![downloadpy](https://github.com/user-attachments/assets/b8be0788-f5bf-421d-8347-62a29d43a480)
+
+
 
 # Running on Linux
 1. Clone the repository:
