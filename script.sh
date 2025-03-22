@@ -6,3 +6,4 @@ curl -X POST https://textbelt.com/text \
    -d key=textbelt
 
 python notification.py
+# Replace the phone number with the recepient phone number
