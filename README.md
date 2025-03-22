@@ -8,3 +8,4 @@ Or you can schedule a task that simply runs the script.sh file. (The SMS service
 
 * Note: The free SMS service allows up to 78 caracters, that's why there is an e-mail option in case the verse exceeds that length
 
+Make sure that you don't create any shortcuts and you run the script directly in it's original folder.
