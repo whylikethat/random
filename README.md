@@ -1,7 +1,7 @@
 # Random Bible Verse Generator
 This is a program that generates random bible verses from the New Testament.
 You can choose to clone the GitHub repository to a continuous integration platform (Jenkins, Travis etc..)
-Or you can schedule a task that simply runs the script.sh file. (The SMS service only allows one SMS per day)
+Or you can schedule a task that simply runs the script.sh file. (The SMS service only allows one SMS per day but you can replace the code in script.sh with your own SMS provider's API)
 
 ## Dependencies
 Python:  You can download it from the Microsoft Store on Windows or by typing python in a terminal on Linux/MAC
