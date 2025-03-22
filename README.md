@@ -4,7 +4,7 @@ You can choose to clone the GitHub repository to a continuous integration platfo
 Or you can schedule a task that simply runs the script.sh file. (The SMS service only allows one SMS per day but you can replace the code in script.sh with your own SMS provider's API)
 
 ## Dependencies
-Python:  You can download it from the Microsoft Store on Windows or by typing python in a terminal on Linux/MAC
+Python:  You can download it from the Microsoft Store or directly from Python here: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-us&gl=US on Windows or by typing python in a terminal on Linux/MAC
 
 # Running on Windows
 
