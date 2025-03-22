@@ -10,6 +10,10 @@ Python:  You can download it from the Microsoft Store or directly from Python he
 1. Install Python: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-us&gl=US
 2. Download the verses.py file from https://github.com/whylikethat/random/blob/master/verses.py
 ![downloadpy](https://github.com/user-attachments/assets/b8be0788-f5bf-421d-8347-62a29d43a480)
+3. Test it on the terminal to ensure it is working with:
+python verses.py
+If you see the bible verse, it is working!
+4. Schedule a task on your computer so it can run the command in step 3 via the terminal
 
 
 
