@@ -20,8 +20,9 @@ git clone https://github.com/whylikethat/random.git
 2. Modify the e-mail information in notification.py to reflect your e-mail service provider (I used SMTP with Gmail)
 3. Run the script:
 ```
-   ./script.sh
+   make text
 ```
+4. Cleanup with make clean
    This process only runs the program once, if you want to run it on a schedule, you will need to integrate it with [CI ](https://www.google.com/search?q=continous+integration+platforms&oq=continous+integration+platforms&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMgoIBRAAGAgYDRgeMg0IBhAAGIYDGIAEGIoFMg0IBxAAGIYDGIAEGIoFMgYICBAuGEAyBggJEEUYOdIBCDQ5NDNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8)
 
 * Note: The free SMS service allows up to 78 characters, that's why there is an e-mail option in case the verse exceeds that length
